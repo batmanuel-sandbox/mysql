@@ -18,7 +18,7 @@ prep()
 
 config()
 {
-	./configure --prefix="$PREFIX" --enable-thread-safe-client --enable-local-infile
+	./configure --prefix="$PREFIX" --enable-thread-safe-client --enable-local-infile --with-ssl
 
 	# Hack for clang compatibility on Linux
 	detect_compiler
