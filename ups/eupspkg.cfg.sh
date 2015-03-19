@@ -2,6 +2,7 @@
 
 # Breaks on Darwin w/o this
 export LANG=C
+export LC_CTYPE=C
 
 prep()
 {
